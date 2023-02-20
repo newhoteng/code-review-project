@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
   font-family: 'Roboto', sans-serif;
-    
 }
 
 html {
-  color: rgb(15, 15, 15)
+  color: rgb(15, 15, 15);
 }
-
 
 h1 {
   font-size: 1.5rem;
 }
 
 i {
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
-p, a {
+p,
+a {
   font-size: 0.9rem;
 }
 
@@ -41,7 +41,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 5px 25px; 
-  padding-right: 40px;  
+  padding-right: 40px;
 }
 
 .logo-img {
@@ -76,15 +76,15 @@ img {
 }
 
 .search-container {
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
-    flex: 0 1 685px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  flex: 0 1 685px;
 }
 
 .search-container form {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .search-container input {
@@ -166,7 +166,7 @@ img {
 .video {
   width: 100%;
   aspect-ratio: 16 / 9;
-  flex-grow: 1;    
+  flex-grow: 1;
 }
 
 .video-title {
@@ -175,7 +175,6 @@ img {
 
 .video-description {
   background: rgb(240, 240, 240);
-  margin-top: 10px;
   border-radius: 10px;
   padding: 10px;
   line-height: 20px;
@@ -278,13 +277,13 @@ img {
   justify-content: space-between;
 }
 
-/* video-options*/
 .video-options {
   width: 402px;
   min-width: 330px;
   display: flex;
   flex-direction: column;
   margin: 0 20px;
+  gap: 8px;
 }
 
 .side-pic {
@@ -333,10 +332,4 @@ img {
   margin-bottom: 4px;
   line-height: 20px;
   max-height: 40px;
-}
-
-.video-options {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
 }
